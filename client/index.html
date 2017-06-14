@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>NEM ICO </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		 <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+<span id="logo"><img height="50px" length="50px" src="images/nemlogo.png" alt="NEM Blockchain Logo" /></span>
+				<!-- Main -->
+					<section id="main">
+						<h1>Fake Blockchain Company</h1>
+						<p>We are taking money out of hands, one ico at a time</p>
+						<p>Insert details</p>
+						<p>How many tokens would you like? Cost: 100 xem per token.
+						<p>Number of Tokens:<input type="text" id="num-of-shares" /><button id="buy-shares" onclick="buytokens()">Buy Tokens</button>
+						<p>Total Cost:<span id="total-cost"></span>
+
+
+
+<ul>
+<li><div id="addressdata">ICO data loading...</div></li>
+<li><div id="addresstokens">You currently own:## tokens</div></li>
+<li><span id="funding-address">Your Funding Address</span><button id="showkey">Show your Private Key</button></li>
+<li>QR Code for funding Address:<div id="qrpublicaddress" style="width:200px; height:200px; margin:15px"></div></li>
+
+<li>Note: You should save your private key, as all ico tokens are sent to that address. </li>
+
+
+</ul>
+						
+						
+					</section>
+<section id="AccountDetails">
+
+</section>
+			
+
+			</div>
+<footer>
+
+</footer>
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+
+	</body>
+
+
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/qrcode.js"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="js/nem-sdk.js"></script>
+	<script src="js/script.js"></script>
+</html>
